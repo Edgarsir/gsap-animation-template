@@ -7,13 +7,13 @@ class HeroWebGL {
     constructor(options = {}) {
         this.canvas = document.getElementById(options.canvasId || 'hero-canvas');
         this.images = options.images || [
-            'hero-1.jpg',
-            'hero-2.jpg',
-            'hero-3.jpg',
-            'hero-4.jpg',
-            'hero-5.jpg'
+            'assets/hero/hero-1.jpg',
+            'assets/hero/hero-2.jpg',
+            'assets/hero/hero-3.jpg',
+            'assets/hero/hero-4.jpg',
+            'assets/hero/hero-5.jpg'
         ];
-        this.textImage = options.textImage || 'catch_copy_mobile.png';  // Vertical text
+        this.textImage = options.textImage || 'assets/hero/catch_copy_mobile.png';  // Vertical text
         this.autoPlayInterval = options.autoPlayInterval || 5500;
         this.currentIndex = 0;
         this.isAnimating = false;
@@ -669,11 +669,11 @@ function initHeroWebGL() {
     heroWebGL = new HeroWebGL({
         canvasId: 'hero-canvas',
         images: [
-            'hero-1.jpg',
-            'hero-2.jpg',
-            'hero-3.jpg',
-            'hero-4.jpg',
-            'hero-5.jpg'
+            'assets/hero/hero-1.jpg',
+            'assets/hero/hero-2.jpg',
+            'assets/hero/hero-3.jpg',
+            'assets/hero/hero-4.jpg',
+            'assets/hero/hero-5.jpg'
         ],
         autoPlayInterval: 5500
     });

@@ -21,3 +21,6 @@ Thumbs.db
 # Temp files
 *.tmp
 *.temp
+
+# Unused assets (optional - uncomment to exclude from repo)
+# assets/unused-images/
